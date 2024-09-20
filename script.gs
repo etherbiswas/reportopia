@@ -50,6 +50,7 @@ function createAndSendReport() {
   }
 }
 
+// {{{
 /**
  * Fetch data from a specific sheet.
  * @param {Sheet} sheet The Google Sheet to fetch data from.
@@ -212,4 +213,6 @@ function getCurrentDateTimeFormatted(format) {
   var date = new Date();
   return Utilities.formatDate(date, Session.getScriptTimeZone(), format);
 }
+// }}}
 
+// vim: ft=js:foldmethod=marker:expandtab:ts=4:shiftwidth=4
