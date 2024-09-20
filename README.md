@@ -4,20 +4,23 @@
 
 # 🧾 Automated Daily Report Script
 
-Welcome to the **Automated Daily Report** script repository! 🚀 This Google Apps Script generates daily PDF reports from a Google Sheet, sends them via email, and stores them in Google Drive. 📊📧✨
+🚀 This Google Apps Script generates daily PDF reports from a Google Sheet, sends them via email, and stores them in Google Drive. 📊📧✨
 
 ## 🛠 Use Case
 
-This script is perfect for anyone who needs to automate daily reports, like:
+This script is perfect for anyone who needs to automate daily reports or receipts, like:
 
 - Tracking **daily receipts** and **expenses**.
 - Automatically sending **email reports** to a list of recipients. 📩
 - Generating **PDF summaries** and saving them to **Google Drive**. 📂
 
+Example: Small bussiness that needs a receipt system and or keep track of finances
+
 ## 💡 How It Works
 
 1. Fetches data from your **Google Sheets** (Daily Receipts & Daily Expenses).
-2. Formats the data into an **HTML report** with time zones for different regions (California & Dhaka). 🌍🕰
+2. Formats the data into an **HTML report** with time zones for different regions. 🌍🕰
+   Uses (California & Dhaka), you can change these to your liking.
 3. Sends the report via email to a list of **recipient emails**. ✉️
 4. Creates **PDF versions** of the receipts and expenses, then saves them to Google Drive. 📄
 5. Optionally, **clears the sheet data** (except headers) to prepare for the next day's entries. 🧹
