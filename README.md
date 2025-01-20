@@ -1,4 +1,9 @@
+![](https://github.com/etherbiswas/reportopia/blob/main/images/DailyExpense.png)
+![](https://github.com/etherbiswas/reportopia/blob/main/images/DailyReciepts.png)
+![](https://github.com/etherbiswas/reportopia/blob/main/images/PDFmails.png)
+
 # Reportopia
+
 **Under 100 SLOC!!**
 📊 Welcome to Reportopia! An automated modular reporting tool for Google Sheets that generates stunning daily reports and saves them as PDFs! and automates mails!! 📄✨
 
